@@ -19,6 +19,8 @@ Server response:
 - *200 OK*, with a body, and *ETag*: \<ETag\>
 - *304 Not Modified*, without a body
 
+注意是*If-None-Match*而不是*If-Not-Match*，这是因为*If-None-Match*被设计成可以接收多个ETag作为参数。
+
 ### *Expires*
 
 Server response:
