@@ -1,30 +1,30 @@
 # Readme
 A note about HTTP Caching.
 
-### *If-Modified-Since*/*Last-Modified*
+### **If-Modified-Since**/**Last-Modified**
 
 Client request:
-- *If-Modified-Since*: \<Last-Modified\>
+- **If-Modified-Since**: \<Last-Modified\>
 
 Server response:
-- *200 OK*, with a body, and *Last-Modified*: \<Last-Modified\>
-- *304 Not Modified*, without a body
+- **200 OK**, with a body, and **Last-Modified**: \<Last-Modified\>
+- **304 Not Modified**, without a body
 
-### *If-None-Match*/*ETag*
+### **If-None-Match**/**ETag**
 
 Client request:
-- *If-None-Match*: \<ETag\>
+- **If-None-Match**: \<ETag\>
 
 Server response:
-- *200 OK*, with a body, and *ETag*: \<ETag\>
-- *304 Not Modified*, without a body
+- **200 OK**, with a body, and **ETag**: \<ETag\>
+- **304 Not Modified**, without a body
 
-注意是*If-None-Match*而不是~~If-Not-Match~~，这是因为*If-None-Match*被设计成可以同时接收多个ETag作为参数。
+注意是**If-None-Match**而不是~~If-Not-Match~~，这是因为**If-None-Match**被设计成可以同时接收多个ETag作为参数。
 
-### *Expires*
+### **Expires**
 
 Server response:
-- *Expires*: \<Expires\>
+- **Expires**: \<Expires\>
 
 ### Credits
 - Computer Networking: A Top-Down Approach, Eighth Edition
