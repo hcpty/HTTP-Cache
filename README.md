@@ -1,6 +1,13 @@
 # Readme
 A note about HTTP Caching.
 
+### **Expires**
+
+Server response:
+- **Expires**: \<Expires\>
+
+注意**Expires**使用GMT时间。
+
 ### **If-Modified-Since**/**Last-Modified**
 
 Client request:
@@ -22,13 +29,6 @@ Server response:
 - **304 Not Modified**, without a body
 
 注意是**If-None-Match**而不是~~If-Not-Match~~，因为**If-None-Match**被设计成可以同时接收多个ETag。
-
-### **Expires**
-
-Server response:
-- **Expires**: \<Expires\>
-
-注意**Expires**使用GMT时间。
 
 ### Credits
 - Computer Networking: A Top-Down Approach, Eighth Edition
