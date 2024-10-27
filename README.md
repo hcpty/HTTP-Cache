@@ -1,14 +1,21 @@
 # Readme
 A note about HTTP Caching.
 
-### **Expires**
+### Expires
 
 Server response:
 - **Expires**: \<Expires\>
 
 注意**Expires**使用GMT时间。
 
-### **If-Modified-Since**/**Last-Modified**
+### Cache-Control: max-age
+
+Server response:
+- **Cache-Control**: max-age=\<max-age\>
+
+注意max-age以秒为单位。
+
+### If-Modified-Since/Last-Modified
 
 Client request:
 - **If-Modified-Since**: \<Last-Modified\>
@@ -19,7 +26,7 @@ Server response:
 
 注意**If-Modified-Since**和**Last-Modified**使用GMT时间。
 
-### **If-None-Match**/**ETag**
+### If-None-Match/ETag
 
 Client request:
 - **If-None-Match**: \<ETag\>
