@@ -10,6 +10,8 @@ Server response:
 - **200 OK**, with a body, and **Last-Modified**: \<Last-Modified\>
 - **304 Not Modified**, without a body
 
+注意**If-Modified-Since**和**Last-Modified**使用GMT时间。
+
 ### **If-None-Match**/**ETag**
 
 Client request:
@@ -25,6 +27,8 @@ Server response:
 
 Server response:
 - **Expires**: \<Expires\>
+
+注意**Expires**使用GMT时间。
 
 ### Credits
 - Computer Networking: A Top-Down Approach, Eighth Edition
