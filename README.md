@@ -19,6 +19,11 @@ Server response:
 - *200 OK*, with a body, and *Last-Modified*: \<Last-Modified\>
 - *304 Not Modified*, without a body
 
+### *Expires*
+
+Server response:
+- *Expires*: \<Expires\>
+
 ### Credits
 - Computer Networking: A Top-Down Approach, Eighth Edition
 - [ETag - MDN](https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/ETag)
