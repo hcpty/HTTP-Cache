@@ -11,7 +11,7 @@ Server response:
 ### Cache-Control: max-age
 
 Server response:
-- **Cache-Control**: max-age=\<max-age\>
+- **Cache-Control**: **max-age**=\<max-age\>
 
 注意max-age以秒为单位。
 
