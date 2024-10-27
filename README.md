@@ -4,7 +4,7 @@ A note about HTTP Caching.
 ### If-None-Match/ETag
 
 Client request:
-- **If-None-Match**: \<ETag\>
+- **If-None-Match**: \<ETag\>, \<ETag\>, ...
 
 Server response:
 - **200 OK**, with a body, and **ETag**: \<ETag\>
