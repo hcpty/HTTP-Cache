@@ -26,4 +26,6 @@ Server response:
 
 ### Credits
 - Computer Networking: A Top-Down Approach, Eighth Edition
-- [ETag - MDN](https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/ETag)
+- [If-None-Match](https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/If-None-Match)
+- [If-Modified-Since](https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/If-Modified-Since)
+- [Expires](https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Expires)
