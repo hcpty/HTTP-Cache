@@ -1,15 +1,6 @@
 # Readme
 A note about HTTP Caching.
 
-### *If-None-Match*/*ETag*
-
-Client request:
-- *If-None-Match*: \<ETag\>
-
-Server response:
-- *200 OK*, with a body, and *ETag*: \<ETag\>
-- *304 Not Modified*, without a body
-
 ### *If-Modified-Since*/*Last-Modified*
 
 Client request:
@@ -17,6 +8,15 @@ Client request:
 
 Server response:
 - *200 OK*, with a body, and *Last-Modified*: \<Last-Modified\>
+- *304 Not Modified*, without a body
+
+### *If-None-Match*/*ETag*
+
+Client request:
+- *If-None-Match*: \<ETag\>
+
+Server response:
+- *200 OK*, with a body, and *ETag*: \<ETag\>
 - *304 Not Modified*, without a body
 
 ### *Expires*
